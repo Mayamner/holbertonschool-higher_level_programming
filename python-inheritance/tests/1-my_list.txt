@@ -16,6 +16,14 @@
 >>> my_list2.print_sorted()
 [1, 5, 10]
 
+>>> my_list5 = MyList()
+>>> my_list5.append(-5)
+>>> my_list5.append(3)
+>>> my_list5.append(-1)
+>>> my_list5.append(0)
+>>> my_list5.print_sorted()
+[-5, -1, 0, 3]
+
 >>> my_list3 = MyList()
 >>> my_list3.print_sorted()
 []
